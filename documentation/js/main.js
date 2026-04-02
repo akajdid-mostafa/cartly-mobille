@@ -785,7 +785,9 @@
   // === YouTube Channel Videos Playlist
   if ($("#ycp").length) {
     $("#ycp").ycp({
-      apikey: "AIzaSyBS5J1A7o-M8X78JuiqF5h103XLmSQiReE",
+      // API key intentionally not committed to the repo.
+      // Set `window.YCP_API_KEY` in your page at runtime.
+      apikey: window.YCP_API_KEY || "",
       playlist: 6,
       autoplay: true,
       related: true,

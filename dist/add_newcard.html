@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="theme-color" content="#111827" />
+    <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <link rel="stylesheet" href="https://use.hugeicons.com/font/icons.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.png"
+      type="image/x-icon" />
+    <title>Cartly - E-Commerce Mobile app HTMl Template</title>
+  <link href="assets/css/index.css" rel="stylesheet"></head>
+
+  <body class="relative min-h-screen">
+    <!-- Time and Network bar starts -->
+    <div class="mx-auto max-w-md">
+      <div class="container">
+        <div class="flex justify-between items-center py-2">
+          <img
+            class="w-full"
+            src="assets/images/statusbar.png"
+            alt=""
+            draggable="false" />
+        </div>
+      </div>
+    </div>
+    <!-- Time and Network bar ends -->
+    <section class="mx-auto max-w-md">
+      <div class="container">
+        <div
+          class="p-4 flex items-center justify-between border-b border-gr30 mb-4">
+          <a href="index.html" class="flex items-center gap-3">
+            <span class="d-center"
+              ><i class="hgi hgi-stroke hgi-arrow-left-01 text-2xl"></i
+            ></span>
+            <span class="fs-six text-gr80 font-bold">Add New Card</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="mx-auto max-w-md px-4">
+      <div class="p-4 rounded-xl border border-gr30 mb-[320px]">
+        <div
+          class="flexs gap-2 py-2 px-[14px] rounded-lg border border-gr30 mb-4">
+          <span class="d-center"
+            ><i class="hgi hgi-stroke hgi-credit-card text-xl text-gr60"></i
+          ></span>
+          <input type="text" placeholder="Card Number" class="!p-0 !border-0" />
+        </div>
+        <div
+          class="flexs gap-2 py-2 px-[14px] rounded-lg border border-gr30 mb-4">
+          <span class="d-center"
+            ><i class="hgi hgi-stroke hgi-user text-xl text-gr60"></i
+          ></span>
+          <input type="text" placeholder="Full Name" class="!p-0 !border-0" />
+        </div>
+        <div class="flexs gap-2 mb-4">
+          <div class="flexs gap-2 py-2 px-[14px] rounded-lg border border-gr30">
+            <span class="d-center"
+              ><i
+                class="hgi hgi-stroke hgi-credit-card-not-found text-xl text-gr60"></i
+            ></span>
+            <input type="text" placeholder="CVV" class="!p-0 !border-0" />
+          </div>
+          <div class="flexs gap-2 py-2 px-[14px] rounded-lg border border-gr30">
+            <span class="d-center"
+              ><i class="hgi hgi-stroke hgi-calendar-03 text-xl text-gr60"></i
+            ></span>
+            <input type="text" placeholder="Expiry" class="!p-0 !border-0" />
+          </div>
+        </div>
+        <div class="flexs gap-2 cursor-pointer">
+          <input type="checkbox" class="!size-[14px]" />
+          <span class="text-sm text-gr80">Set Default Card</span>
+        </div>
+      </div>
+      <div>
+        <button
+          class="text-sm font-bold text-gr80 !border !border-gr30 py-2 px-4 rounded-lg w-full mb-4">
+          Scan Card
+        </button>
+        <a href="payment_method.html"
+          class="text-sm font-bold text-nt10 bg-primary py-2 px-4 rounded-lg w-full block text-center">
+          Add Card
+        </a>
+      </div>
+    </section>
+
+    <script src="./assets/js/plguins.js"></script>
+    <script src="./assets/js/plguins-custom.js"></script>
+    <script src="./assets/js/main.js"></script>
+  <script defer src="index.js"></script></body>
+</html>

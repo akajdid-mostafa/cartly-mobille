@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="theme-color" content="#111827" />
+    <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <link rel="stylesheet" href="https://use.hugeicons.com/font/icons.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.png"
+      type="image/x-icon" />
+    <title>Cartly - E-Commerce Mobile app HTMl Template</title>
+  </head>
+
+  <body>
+    <!-- Time and Network bar starts -->
+    <div class="mx-auto max-w-md mb-[130px]">
+      <div class="container">
+        <div class="flex justify-between items-center py-2">
+          <img
+            class="w-full"
+            src="assets/images/statusbar.png"
+            alt=""
+            draggable="false" />
+        </div>
+      </div>
+    </div>
+    <!-- Time and Network bar ends -->
+    <section class="mx-auto max-w-md">
+      <div class="container">
+        <div>
+          <div class="mb-6">
+            <img
+              class="mx-auto"
+              src="assets/images/turnonnotifications.png"
+              alt="" />
+          </div>
+          <div class="mb-6 text-center">
+            <h5 class="mb-3 text-gr80 font-bold">Turn on Notifications</h5>
+            <p class="text-gr60">
+              Enable notifications to make sure you <br />
+              don’t miss out on the topics you’ve <br />
+              subscribed to
+            </p>
+          </div>
+          <!-- Notification Switch Row -->
+          <div class="px-4 pb-4">
+            <div
+              class="flex items-center justify-between bg-gr20 rounded-xl px-4 py-3 mb-8">
+              <div class="flex items-center gap-2">
+                <!-- Left Icon -->
+                <span class="text-gr80 d-center">
+                  <i class="hgi hgi-stroke hgi-notification-01 text-2xl"></i>
+                </span>
+                <!-- Middle Text -->
+                <span class="text-gr80 font-bold flex-1 text-center"
+                  >Notifications</span
+                >
+              </div>
+              <!-- Right Switch -->
+              <label class="inline-flex items-center cursor-pointer">
+                <input type="checkbox" id="notifSwitch" class="sr-only peer" />
+                <div
+                  class="w-11 h-6 bg-gr30 rounded-full relative transition-colors peer-checked:bg-primary">
+                  <span
+                    class="absolute left-1 top-1 w-4 h-4 bg-white rounded-full transition-transform duration-300 peer-checked:translate-x-5"></span>
+                </div>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./assets/js/plguins.js"></script>
+    <script src="./assets/js/plguins-custom.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

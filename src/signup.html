@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="theme-color" content="#111827" />
+    <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <link rel="stylesheet" href="https://use.hugeicons.com/font/icons.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.png"
+      type="image/x-icon" />
+    <title>Cartly - E-Commerce Mobile app HTMl Template</title>
+  </head>
+
+  <body>
+    <!-- Time and Network bar starts -->
+    <div class="mx-auto max-w-md">
+      <div class="container">
+        <div class="flex justify-between items-center py-2">
+          <img
+            class="w-full"
+            src="assets/images/statusbar.png"
+            alt=""
+            draggable="false" />
+        </div>
+      </div>
+    </div>
+    <!-- Time and Network bar ends -->
+
+    <section class="mx-auto max-w-md">
+      <div class="container">
+        <div class="p-4 flex items-center border-b border-gr30 mb-10">
+          <a href="index.html" class="flex items-center gap-3">
+            <span class="d-center"
+              ><i class="hgi hgi-stroke hgi-arrow-left-01 text-2xl"></i
+            ></span>
+            <span class="fs-six text-gr80 font-bold">Setup Profile</span>
+          </a>
+        </div>
+        <div>
+          <div class="px-4">
+            <form class="py-6 px-3 mb-4">
+              <div class="mb-6">
+                <div>
+                  <div>
+                    <label
+                      for="profile_photo"
+                      class="cursor-pointer mb-6 block">
+                      <img
+                        class="mx-auto"
+                        src="assets/images/proflie-image.png"
+                        alt="Profile Upload" />
+                    </label>
+                    <label for="profile_photo" class="cursor-pointer d-center">
+                      <span class="text-primary">Upload Image</span>
+                    </label>
+                  </div>
+                  <input
+                    type="file"
+                    id="profile_photo"
+                    class="block w-full px-4 py-2 text-sm text-gr80 bg-gr30 border border-gr40 rounded-lg"
+                    accept=".png, .jpg, .jpeg"
+                    style="display: none" />
+                </div>
+              </div>
+              <div
+                class="flex items-center border border-gr30 px-4 py-3 gap-2 rounded-lg mb-4">
+                <span class="d-center"
+                  ><i class="hgi hgi-stroke hgi-user text-xl text-gr60"></i
+                ></span>
+                <input
+                  type="text"
+                  placeholder="Full Name"
+                  class="w-full text-gr60 !border-0 !p-0" />
+              </div>
+              <div
+                class="flex items-center border border-gr30 px-4 py-3 gap-2 rounded-lg mb-4">
+                <span class="d-center"
+                  ><i
+                    class="hgi hgi-stroke hgi-calendar-03 text-xl text-gr60"></i
+                ></span>
+                <input
+                  type="date"
+                  placeholder="Date of Birth"
+                  class="w-full text-gr50 !border-0 !p-0" />
+              </div>
+              <div
+                class="flex items-center border border-gr30 px-4 py-3 gap-2 rounded-lg mb-4">
+                <span class="d-center"
+                  ><i class="hgi hgi-stroke hgi-call text-xl text-gr60"></i
+                ></span>
+                <input
+                  type="number"
+                  placeholder="Phone"
+                  class="w-full text-gr60 !border-0 !p-0" />
+              </div>
+              <div
+                class="flex items-center border border-gr30 px-4 py-3 gap-2 rounded-lg mb-4">
+                <span class="d-center"
+                  ><i class="hgi hgi-stroke hgi-mail-02 text-xl text-gr60"></i
+                ></span>
+                <input
+                  type="email"
+                  placeholder="Email Address"
+                  class="w-full text-gr60 !border-0 !p-0" />
+              </div>
+              <div
+                class="flex items-center border border-gr30 px-4 py-3 gap-2 rounded-lg mb-14">
+                <span class="d-center"
+                  ><i
+                    class="hgi hgi-stroke hgi-maps-global-02 text-xl text-gr60"></i
+                ></span>
+                <select class="w-full text-gr60 !border-0 !p-0 outline-none">
+                  <option value="">Select Country</option>
+                  <option value="BD">Bangladesh</option>
+                  <option value="IN">India</option>
+                  <option value="US">United States</option>
+                </select>
+              </div>
+              <div
+                class="w-full px-6 py-3 rounded-[8px] bg-primary hover:bg-p20 duration-300 mb-4">
+                <a
+                  href="index.html"
+                  class="text-nt10 font-bold w-full text-center block">
+                  Signup
+                </a>
+              </div>
+              <div
+                class="w-full px-6 py-3 rounded-[8px] duration-300 mb-4 border border-gr30">
+                <a
+                  href="index.html"
+                  class="text-gr70 font-bold w-full text-center block">
+                  Skip
+                </a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./assets/js/plguins.js"></script>
+    <script src="./assets/js/plguins-custom.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

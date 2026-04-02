@@ -1,0 +1,1363 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="theme-color" content="#111827" />
+    <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <link rel="stylesheet" href="https://use.hugeicons.com/font/icons.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.png"
+      type="image/x-icon" />
+    <title>Cartly - E-Commerce Mobile app HTMl Template</title>
+  </head>
+
+  <body>
+    <!-- Time and Network bar starts -->
+    <div class="mx-auto max-w-md">
+      <div class="container">
+        <div class="flex justify-between items-center py-2">
+          <img
+            class="w-full"
+            src="assets/images/statusbar.png"
+            alt=""
+            draggable="false" />
+        </div>
+      </div>
+    </div>
+    <!-- Time and Network bar ends -->
+    <section class="mx-auto max-w-md">
+      <div class="container">
+        <div
+          class="p-4 flex items-center justify-between border-b border-gr30 mb-4">
+          <a href="index.html" class="flex items-center gap-3">
+            <span class="d-center"
+              ><i class="hgi hgi-stroke hgi-arrow-left-01 text-2xl"></i
+            ></span>
+            <span class="fs-six text-gr80 font-bold">Help & Support</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Search area Starts -->
+    <div class="mx-auto max-w-md px-4 mb-10">
+      <div class="p-4 bg-primary rounded-xl">
+        <div class="mb-4">
+          <span class="font-semibold mb-1 text-nt10">How can we help ?</span>
+          <p class="text-sm text-nt10">
+            Discover Solutions Tailored to Your Needs
+          </p>
+        </div>
+        <div>
+          <form
+            class="relative rounded-lg px-3 py-2 flex items-center gap-3 bg-nt10">
+            <button class="d-center">
+              <i class="hgi hgi-stroke hgi-search-01 text-2xl text-gr60"></i>
+            </button>
+            <input
+              type="text"
+              placeholder="Find Something"
+              class="w-full outline-none !border-0 !p-0" />
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Search area Ends -->
+    <!-- Tabs Starts -->
+    <div class="mx-auto max-w-md px-4 helpsupporttabs mb-4">
+      <div class="singletab mb-3">
+        <ul class="tablinks flex items-center gap-">
+          <li class="nav-links active">
+            <a
+              href="javascript:void(0)"
+              class="tablink flex items-center gap-2 py-2 px-1.5 font-semibold text-sm">
+              <span class="text-sm text-nowrap text-gr60">All</span></a
+            >
+          </li>
+          <li class="nav-links">
+            <a
+              href="javascript:void(0)"
+              class="tablink flex items-center gap-2 py-2 px-1.5 font-semibold text-sm">
+              <span class="text-sm text-nowrap text-gr60"
+                >Getting Started</span
+              ></a
+            >
+          </li>
+          <li class="nav-links">
+            <a
+              href="javascript:void(0)"
+              class="tablink flex items-center gap-2 py-2 px-1.5 font-semibold text-sm">
+              <span class="text-sm text-nowrap text-gr60"
+                >Orders & Shipping</span
+              ></a
+            >
+          </li>
+          <li class="nav-links">
+            <a
+              href="javascript:void(0)"
+              class="tablink flex items-center gap-2 py-2 px-1.5 font-semibold text-sm">
+              <span class="text-sm text-nowrap text-gr60">Payments</span></a
+            >
+          </li>
+        </ul>
+
+        <div class="tabcontents mt-3">
+          <div class="tabitem active">
+            <div class="accordion-section">
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    What payment methods do you accept?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <div class="mb-1">
+                      <span class="fs-seven font-medium text-gr60"
+                        >Enter Your Details:</span
+                      >
+                      <ul class="list-disc list-inside space-y-2">
+                        <li class="flex items-start gap-3">
+                          <span
+                            ><i
+                              class="hgi hgi-stroke hgi-circle text-[5px] bg-gr60 rounded-full"></i
+                          ></span>
+                          <p class="text-gr60">
+                            Provide your name, email address, and phone number.
+                          </p>
+                        </li>
+                        <li class="flex items-start gap-3">
+                          <span
+                            ><i
+                              class="hgi hgi-stroke hgi-circle text-[5px] bg-gr60 rounded-full"></i
+                          ></span>
+                          <p class="text-gr60">Create a strong password.</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    How do I track my order?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      Once your order ships, we’ll send you a tracking number
+                      via email so you can follow your delivery.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    What is your return policy?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      You can return items within 30 days of delivery for a full
+                      refund or exchange, provided they’re unused and in
+                      original packaging.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    Do you offer international shipping?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      Yes, we ship worldwide. Shipping fees and delivery times
+                      may vary depending on your location.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    What payment methods do you accept?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      We accept credit cards, debit cards, PayPal, and other
+                      secure payment options.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    How do I track my order?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      Once your order ships, we’ll send you a tracking number
+                      via email so you can follow your delivery.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    What is your return policy?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      You can return items within 30 days of delivery for a full
+                      refund or exchange, provided they’re unused and in
+                      original packaging.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    Do you offer international shipping?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      Yes, we ship worldwide. Shipping fees and delivery times
+                      may vary depending on your location.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    What payment methods do you accept?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      We accept credit cards, debit cards, PayPal, and other
+                      secure payment options.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    How do I track my order?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      Once your order ships, we’ll send you a tracking number
+                      via email so you can follow your delivery.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    What is your return policy?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      You can return items within 30 days of delivery for a full
+                      refund or exchange, provided they’re unused and in
+                      original packaging.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    Do you offer international shipping?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      Yes, we ship worldwide. Shipping fees and delivery times
+                      may vary depending on your location.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tabitem">
+            <div class="accordion-section">
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    What payment methods do you accept?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <div class="mb-1">
+                      <span class="fs-seven font-medium text-gr60"
+                        >Enter Your Details:</span
+                      >
+                      <ul class="list-disc list-inside space-y-2">
+                        <li class="flex items-start gap-3">
+                          <span
+                            ><i
+                              class="hgi hgi-stroke hgi-circle text-[5px] bg-gr60 rounded-full"></i
+                          ></span>
+                          <p class="text-gr60">
+                            Provide your name, email address, and phone number.
+                          </p>
+                        </li>
+                        <li class="flex items-start gap-3">
+                          <span
+                            ><i
+                              class="hgi hgi-stroke hgi-circle text-[5px] bg-gr60 rounded-full"></i
+                          ></span>
+                          <p class="text-gr60">Create a strong password.</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    How do I track my order?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      Once your order ships, we’ll send you a tracking number
+                      via email so you can follow your delivery.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    What is your return policy?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      You can return items within 30 days of delivery for a full
+                      refund or exchange, provided they’re unused and in
+                      original packaging.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    Do you offer international shipping?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      Yes, we ship worldwide. Shipping fees and delivery times
+                      may vary depending on your location.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    What payment methods do you accept?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      We accept credit cards, debit cards, PayPal, and other
+                      secure payment options.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    How do I track my order?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      Once your order ships, we’ll send you a tracking number
+                      via email so you can follow your delivery.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    What is your return policy?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      You can return items within 30 days of delivery for a full
+                      refund or exchange, provided they’re unused and in
+                      original packaging.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    Do you offer international shipping?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      Yes, we ship worldwide. Shipping fees and delivery times
+                      may vary depending on your location.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    What payment methods do you accept?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      We accept credit cards, debit cards, PayPal, and other
+                      secure payment options.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    How do I track my order?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      Once your order ships, we’ll send you a tracking number
+                      via email so you can follow your delivery.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    What is your return policy?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      You can return items within 30 days of delivery for a full
+                      refund or exchange, provided they’re unused and in
+                      original packaging.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    Do you offer international shipping?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      Yes, we ship worldwide. Shipping fees and delivery times
+                      may vary depending on your location.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tabitem">
+            <div class="accordion-section">
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    What payment methods do you accept?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <div class="mb-1">
+                      <span class="fs-seven font-medium text-gr60"
+                        >Enter Your Details:</span
+                      >
+                      <ul class="list-disc list-inside space-y-2">
+                        <li class="flex items-start gap-3">
+                          <span
+                            ><i
+                              class="hgi hgi-stroke hgi-circle text-[5px] bg-gr60 rounded-full"></i
+                          ></span>
+                          <p class="text-gr60">
+                            Provide your name, email address, and phone number.
+                          </p>
+                        </li>
+                        <li class="flex items-start gap-3">
+                          <span
+                            ><i
+                              class="hgi hgi-stroke hgi-circle text-[5px] bg-gr60 rounded-full"></i
+                          ></span>
+                          <p class="text-gr60">Create a strong password.</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    How do I track my order?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      Once your order ships, we’ll send you a tracking number
+                      via email so you can follow your delivery.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    What is your return policy?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      You can return items within 30 days of delivery for a full
+                      refund or exchange, provided they’re unused and in
+                      original packaging.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    Do you offer international shipping?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      Yes, we ship worldwide. Shipping fees and delivery times
+                      may vary depending on your location.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    What payment methods do you accept?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      We accept credit cards, debit cards, PayPal, and other
+                      secure payment options.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    How do I track my order?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      Once your order ships, we’ll send you a tracking number
+                      via email so you can follow your delivery.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    What is your return policy?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      You can return items within 30 days of delivery for a full
+                      refund or exchange, provided they’re unused and in
+                      original packaging.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    Do you offer international shipping?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      Yes, we ship worldwide. Shipping fees and delivery times
+                      may vary depending on your location.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    What payment methods do you accept?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      We accept credit cards, debit cards, PayPal, and other
+                      secure payment options.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    How do I track my order?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      Once your order ships, we’ll send you a tracking number
+                      via email so you can follow your delivery.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    What is your return policy?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      You can return items within 30 days of delivery for a full
+                      refund or exchange, provided they’re unused and in
+                      original packaging.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    Do you offer international shipping?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      Yes, we ship worldwide. Shipping fees and delivery times
+                      may vary depending on your location.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tabitem">
+            <div class="accordion-section">
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    What payment methods do you accept?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <div class="mb-1">
+                      <span class="fs-seven font-medium text-gr60"
+                        >Enter Your Details:</span
+                      >
+                      <ul class="list-disc list-inside space-y-2">
+                        <li class="flex items-start gap-3">
+                          <span
+                            ><i
+                              class="hgi hgi-stroke hgi-circle text-[5px] bg-gr60 rounded-full"></i
+                          ></span>
+                          <p class="text-gr60">
+                            Provide your name, email address, and phone number.
+                          </p>
+                        </li>
+                        <li class="flex items-start gap-3">
+                          <span
+                            ><i
+                              class="hgi hgi-stroke hgi-circle text-[5px] bg-gr60 rounded-full"></i
+                          ></span>
+                          <p class="text-gr60">Create a strong password.</p>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    How do I track my order?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      Once your order ships, we’ll send you a tracking number
+                      via email so you can follow your delivery.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    What is your return policy?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      You can return items within 30 days of delivery for a full
+                      refund or exchange, provided they’re unused and in
+                      original packaging.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    Do you offer international shipping?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      Yes, we ship worldwide. Shipping fees and delivery times
+                      may vary depending on your location.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    What payment methods do you accept?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      We accept credit cards, debit cards, PayPal, and other
+                      secure payment options.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    How do I track my order?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      Once your order ships, we’ll send you a tracking number
+                      via email so you can follow your delivery.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    What is your return policy?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      You can return items within 30 days of delivery for a full
+                      refund or exchange, provided they’re unused and in
+                      original packaging.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    Do you offer international shipping?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      Yes, we ship worldwide. Shipping fees and delivery times
+                      may vary depending on your location.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    What payment methods do you accept?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      We accept credit cards, debit cards, PayPal, and other
+                      secure payment options.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    How do I track my order?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      Once your order ships, we’ll send you a tracking number
+                      via email so you can follow your delivery.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    What is your return policy?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      You can return items within 30 days of delivery for a full
+                      refund or exchange, provided they’re unused and in
+                      original packaging.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="accordion-single accsingle border-b border-gr30 overflow-hidden">
+                <h4
+                  class="header-area flex items-center justify-between gap-6 md:gap-10 pr-3 py-3 border-opacity-50">
+                  <button
+                    class="accordion-btn flex items-start relative w-100 text-start text-base text-gr80 font-normal"
+                    type="button">
+                    Do you offer international shipping?
+                  </button>
+                  <button class="arrowclickable">
+                    <i class="ph ph-caret-right flex text-gr80 text-xl"></i>
+                    <i class="ph ph-caret-down text-gr80 hidden text-xl"></i>
+                  </button>
+                </h4>
+                <div class="content-area hidden border-opacity-50">
+                  <div class="content-body pr-3 pb-3">
+                    <p class="font-medium opacity-70 text-gr60 text-sm">
+                      Yes, we ship worldwide. Shipping fees and delivery times
+                      may vary depending on your location.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Tabs Ends -->
+
+    <script src="./assets/js/plguins.js"></script>
+    <script src="./assets/js/plguins-custom.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

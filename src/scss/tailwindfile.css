@@ -1,0 +1,245 @@
+@import "tailwindcss";
+
+@theme {
+  --color-transparent: transparent;
+  --color-primary: #12725e;
+  --color-p10: #cef7df;
+  --color-p20: #69d4a9;
+  --color-p30: #12725e;
+  --color-p40: #0d6258;
+  --color-p50: #095250;
+
+  --color-secondary: #3366ff;
+  --color-sd10: #d6e4ff;
+  --color-sd20: #84a9ff;
+  --color-sd30: #3366ff;
+  --color-sd40: #1939b7;
+  --color-sd50: #091a7a;
+
+  --color-info: #1890ff;
+  --color-if10: #d0f2ff;
+  --color-if20: #74caff;
+  --color-if30: #1890ff;
+  --color-if40: #0c53b7;
+  --color-if50: #04297a;
+
+  --color-success: #54d62c;
+  --color-sc10: #e9fcd4;
+  --color-sc20: #aaf27f;
+  --color-sc30: #54d62c;
+  --color-sc40: #229a16;
+  --color-sc50: #08660d;
+
+  --color-warning: #ffc107;
+  --color-wn10: #fff7cd;
+  --color-wn20: #ffe16a;
+  --color-wn30: #ffc107;
+  --color-wn40: #b78103;
+  --color-wn50: #7a4f01;
+
+  --color-error: #ff4842;
+  --color-er10: #ffe7d9;
+  --color-er20: #ffa48d;
+  --color-er30: #ff4842;
+  --color-er40: #b72136;
+  --color-er50: #7a0c2e;
+
+  --color-gray: #919eab;
+  --color-gr10: #f9fafb;
+  --color-gr20: #f4f6f8;
+  --color-gr30: #dfe3e8;
+  --color-gr40: #c4cdd5;
+  --color-gr50: #919eab;
+  --color-gr60: #637381;
+  --color-gr70: #454f5b;
+  --color-gr80: #212b36;
+  --color-gr90: #161c24;
+
+  --color-nt10: #ffffff;
+  --color-nt20: #d0d0d0;
+  --color-nt30: #000000;
+  --color-nt40: #747474;
+  --color-nt50: #474747;
+  --color-nt60: #e6e6e6;
+  --color-nt70: #e8e8e8;
+  --color-nt80: #dbded7;
+
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+}
+
+@layer components {
+  .container {
+    @apply mx-auto max-w-md;
+  }
+  .fs-one {
+    @apply text-[64px] font-bold leading-[80px];
+  }
+
+  .fs-two {
+    @apply text-[48px] font-bold leading-[64px];
+  }
+
+  .fs-three {
+    @apply text-[32px] font-bold leading-[48px];
+  }
+
+  .fs-four {
+    @apply text-[24px] font-bold leading-[36px];
+  }
+
+  .fs-five {
+    @apply text-[20px] font-medium leading-[30px];
+  }
+
+  .fs-six {
+    @apply text-[18px] font-medium leading-[28px];
+  }
+
+  .fs-seven {
+    @apply text-[16px] font-medium leading-[24px];
+  }
+
+  .fs-eight {
+    @apply text-[14px] font-medium leading-[22px];
+  }
+
+  .btn-outline {
+    @apply bg-transparent text-secondary border border-secondary hover:bg-secondary hover:text-nt10;
+  }
+
+  .btn-white {
+    @apply border border-white bg-white text-secondary hover:bg-white dark:border-nt30 dark:bg-nt30;
+  }
+
+  .event-unset {
+    pointer-events: unset;
+  }
+}
+
+@layer base {
+  i {
+    font-size: 1.5rem;
+  }
+
+  a,
+  p,
+  span,
+  td {
+    @apply text-base;
+  }
+
+  span {
+    @apply block;
+  }
+
+  h1 {
+    @apply text-[64px] font-bold leading-[80px];
+  }
+
+  h2 {
+    @apply text-[48px] font-bold leading-[64px];
+  }
+
+  h3 {
+    @apply text-[32px] font-bold leading-[48px];
+  }
+
+  h4 {
+    @apply text-[24px] font-bold leading-[36px];
+  }
+
+  h5 {
+    @apply text-[20px] font-medium leading-[30px];
+  }
+
+  h6 {
+    @apply text-[18px] font-medium leading-[28px];
+  }
+
+  input:focus,
+  textarea:focus {
+    @apply outline-none;
+  }
+
+  * {
+    font-family: "Public Sans", sans-serif;
+    box-sizing: border-box;
+  }
+
+  .publicsans {
+    font-family: "Public Sans", sans-serif;
+  }
+}
+
+@layer utilities {
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+
+  table thead tr th:first-of-type {
+    @apply sm:rounded-tl-lg;
+  }
+
+  table thead tr th:last-of-type {
+    @apply sm:rounded-tr-lg;
+  }
+
+  table tbody tr:last-of-type td:first-of-type {
+    @apply sm:rounded-bl-lg;
+  }
+
+  table tbody tr:last-of-type td:last-of-type {
+    @apply sm:rounded-br-lg;
+  }
+
+  td {
+    vertical-align: middle !important;
+  }
+
+  input[type="date"]::-webkit-inner-spin-button,
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+  }
+
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  input:checked + div {
+    @apply border-primary;
+  }
+
+  input:checked + div svg {
+    @apply block;
+  }
+
+  body {
+    font-family: "Public Sans", sans-serif;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    line-height: 24px;
+    font-size: 16px;
+    overflow-y: scroll;
+  }
+
+  input.picker[type="date"] {
+    position: relative;
+  }
+
+  input.picker[type="date"]::-webkit-calendar-picker-indicator {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    color: transparent;
+    background: transparent;
+  }
+}

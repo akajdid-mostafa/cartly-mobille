@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="theme-color" content="#111827" />
+    <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <link rel="stylesheet" href="https://use.hugeicons.com/font/icons.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.png"
+      type="image/x-icon" />
+    <title>Cartly - E-Commerce Mobile app HTMl Template</title>
+  </head>
+
+  <body class="relative min-h-screen">
+    <!-- Time and Network bar starts -->
+    <div class="mx-auto max-w-md">
+      <div class="container">
+        <div class="flex justify-between items-center py-2">
+          <img
+            class="w-full"
+            src="assets/images/statusbar.png"
+            alt=""
+            draggable="false" />
+        </div>
+      </div>
+    </div>
+    <!-- Time and Network bar ends -->
+    <section class="mx-auto max-w-md">
+      <div class="container">
+        <div
+          class="p-4 flex items-center justify-between border-b border-gr30 mb-4">
+          <a href="index.html" class="flex items-center gap-3">
+            <span class="d-center"
+              ><i class="hgi hgi-stroke hgi-arrow-left-01 text-2xl"></i
+            ></span>
+            <span class="fs-six text-gr80 font-bold">Profile</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="mx-auto max-w-md px-4">
+      <form>
+        <div class="p-4 rounded-xl border border-gr30 mb-[180px]">
+          <div class="flexs gap-2 pb-4 mb-4 border-b border-gr30">
+            <div class="size-[64px]">
+              <img
+                class="w-full"
+                src="assets/images/myprofilemainphoto.png"
+                alt="" />
+            </div>
+            <div>
+              <span class="font-semibold text-gr80 mb-2">Eddie Mitchell</span>
+              <button
+                class="font-bold text-nt10 px-4 py-2 bg-primary rounded-md !text-xs inline-block cursor-pointer">
+                Upload
+              </button>
+            </div>
+          </div>
+          <div class="py-3 px-[14px] rounded-lg border border-gr30 mb-4">
+            <input
+              type="text"
+              placeholder="First Name"
+              class="!p-0 !border-0" />
+          </div>
+          <div class="py-3 px-[14px] rounded-lg border border-gr30 mb-4">
+            <input type="text" placeholder="Last Name" class="!p-0 !border-0" />
+          </div>
+          <div class="py-3 px-[14px] rounded-lg border border-gr30 mb-4">
+            <input
+              type="text"
+              placeholder="Email Address"
+              class="!p-0 !border-0" />
+          </div>
+          <div
+            class="py-3 px-[14px] rounded-lg border border-gr30 !text-gr60 mb-4">
+            <select class="!p-0 !border-0 w-full !outline-none" id="select2">
+              <option value="" selected disabled hidden>Gender</option>
+              <option value="1">Male</option>
+              <option value="2">Female</option>
+            </select>
+          </div>
+        </div>
+        <div class="p-4 border-t border-gr30">
+          <button
+            class="text-sm font-bold text-nt10 bg-primary py-3 px-4 rounded-lg w-full">
+            Save Now
+          </button>
+        </div>
+      </form>
+    </section>
+
+    <script src="./assets/js/plguins.js"></script>
+    <script src="./assets/js/plguins-custom.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>

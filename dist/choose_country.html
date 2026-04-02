@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="theme-color" content="#111827" />
+    <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <link rel="stylesheet" href="https://use.hugeicons.com/font/icons.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.png"
+      type="image/x-icon" />
+    <title>Cartly - E-Commerce Mobile app HTMl Template</title>
+  <link href="assets/css/index.css" rel="stylesheet"></head>
+
+  <body>
+    <!-- Time and Network bar starts -->
+    <div class="mx-auto max-w-md">
+      <div class="container">
+        <div class="flex justify-between items-center py-2">
+          <img
+            class="w-full"
+            src="assets/images/statusbar.png"
+            alt=""
+            draggable="false" />
+        </div>
+      </div>
+    </div>
+    <!-- Time and Network bar ends -->
+
+    <section class="mx-auto max-w-md">
+      <div class="container">
+        <div class="p-4 flex items-center border-b border-gr30 mb-10">
+          <a href="index.html" class="flex items-center gap-3">
+            <span class="d-center"
+              ><i class="hgi hgi-stroke hgi-arrow-left-01 text-2xl"></i
+            ></span>
+            <span class="fs-six text-gr80 font-bold">Choose a country</span>
+          </a>
+        </div>
+        <div>
+          <div class="px-4">
+            <!-- Search Bar -->
+            <div
+              class="flex items-center mb-6 rounded-[8px] px-3 py-4 border border-gr30 gap-2">
+              <span class="text-gr60 d-center">
+                <i class="hgi hgi-stroke hgi-search-01 text-xl"></i>
+              </span>
+              <input
+                type="text"
+                id="countrySearch"
+                class="text-gr80 placeholder:text-gr50 !border-0 w-full !p-0"
+                placeholder="Country..." />
+            </div>
+            <!-- Country List -->
+            <ul id="countryList" class="space-y-3">
+              <!-- 20 country list items with rounded-full flags and consistent style -->
+              <li
+                class="flex items-center gap-3 cursor-pointer hover:bg-gr20 rounded-lg px-3 py-2">
+                <img
+                  src="https://flagcdn.com/w20/us.png"
+                  alt="USA"
+                  class="!size-6 rounded-full" />
+                <span class="text-gr80 font-bold">United States</span>
+              </li>
+              <li
+                class="flex items-center gap-3 cursor-pointer hover:bg-gr20 rounded-lg px-3 py-2">
+                <img
+                  src="https://flagcdn.com/w20/in.png"
+                  alt="India"
+                  class="!size-6 rounded-full" />
+                <span class="text-gr80 font-bold">India</span>
+              </li>
+              <li
+                class="flex items-center gap-3 cursor-pointer hover:bg-gr20 rounded-lg px-3 py-2">
+                <img
+                  src="https://flagcdn.com/w20/gb.png"
+                  alt="United Kingdom"
+                  class="!size-6 rounded-full" />
+                <span class="text-gr80 font-bold">United Kingdom</span>
+              </li>
+              <li
+                class="flex items-center gap-3 cursor-pointer hover:bg-gr20 rounded-lg px-3 py-2">
+                <img
+                  src="https://flagcdn.com/w20/fr.png"
+                  alt="France"
+                  class="!size-6 rounded-full" />
+                <span class="text-gr80 font-bold">France</span>
+              </li>
+              <li
+                class="flex items-center gap-3 cursor-pointer hover:bg-gr20 rounded-lg px-3 py-2">
+                <img
+                  src="https://flagcdn.com/w20/de.png"
+                  alt="Germany"
+                  class="!size-6 rounded-full" />
+                <span class="text-gr80 font-bold">Germany</span>
+              </li>
+              <li
+                class="flex items-center gap-3 cursor-pointer hover:bg-gr20 rounded-lg px-3 py-2">
+                <img
+                  src="https://flagcdn.com/w20/ca.png"
+                  alt="Canada"
+                  class="!size-6 rounded-full" />
+                <span class="text-gr80 font-bold">Canada</span>
+              </li>
+              <li
+                class="flex items-center gap-3 cursor-pointer hover:bg-gr20 rounded-lg px-3 py-2">
+                <img
+                  src="https://flagcdn.com/w20/au.png"
+                  alt="Australia"
+                  class="!size-6 rounded-full" />
+                <span class="text-gr80 font-bold">Australia</span>
+              </li>
+              <li
+                class="flex items-center gap-3 cursor-pointer hover:bg-gr20 rounded-lg px-3 py-2">
+                <img
+                  src="https://flagcdn.com/w20/jp.png"
+                  alt="Japan"
+                  class="!size-6 rounded-full" />
+                <span class="text-gr80 font-bold">Japan</span>
+              </li>
+              <li
+                class="flex items-center gap-3 cursor-pointer hover:bg-gr20 rounded-lg px-3 py-2">
+                <img
+                  src="https://flagcdn.com/w20/cn.png"
+                  alt="China"
+                  class="!size-6 rounded-full" />
+                <span class="text-gr80 font-bold">China</span>
+              </li>
+              <li
+                class="flex items-center gap-3 cursor-pointer hover:bg-gr20 rounded-lg px-3 py-2">
+                <img
+                  src="https://flagcdn.com/w20/ru.png"
+                  alt="Russia"
+                  class="!size-6 rounded-full" />
+                <span class="text-gr80 font-bold">Russia</span>
+              </li>
+              <li
+                class="flex items-center gap-3 cursor-pointer hover:bg-gr20 rounded-lg px-3 py-2">
+                <img
+                  src="https://flagcdn.com/w20/br.png"
+                  alt="Brazil"
+                  class="!size-6 rounded-full" />
+                <span class="text-gr80 font-bold">Brazil</span>
+              </li>
+              <li
+                class="flex items-center gap-3 cursor-pointer hover:bg-gr20 rounded-lg px-3 py-2">
+                <img
+                  src="https://flagcdn.com/w20/za.png"
+                  alt="South Africa"
+                  class="!size-6 rounded-full" />
+                <span class="text-gr80 font-bold">South Africa</span>
+              </li>
+              <li
+                class="flex items-center gap-3 cursor-pointer hover:bg-gr20 rounded-lg px-3 py-2">
+                <img
+                  src="https://flagcdn.com/w20/it.png"
+                  alt="Italy"
+                  class="!size-6 rounded-full" />
+                <span class="text-gr80 font-bold">Italy</span>
+              </li>
+              <li
+                class="flex items-center gap-3 cursor-pointer hover:bg-gr20 rounded-lg px-3 py-2">
+                <img
+                  src="https://flagcdn.com/w20/es.png"
+                  alt="Spain"
+                  class="!size-6 rounded-full" />
+                <span class="text-gr80 font-bold">Spain</span>
+              </li>
+              <li
+                class="flex items-center gap-3 cursor-pointer hover:bg-gr20 rounded-lg px-3 py-2">
+                <img
+                  src="https://flagcdn.com/w20/mx.png"
+                  alt="Mexico"
+                  class="!size-6 rounded-full" />
+                <span class="text-gr80 font-bold">Mexico</span>
+              </li>
+              <li
+                class="flex items-center gap-3 cursor-pointer hover:bg-gr20 rounded-lg px-3 py-2">
+                <img
+                  src="https://flagcdn.com/w20/kr.png"
+                  alt="South Korea"
+                  class="!size-6 rounded-full" />
+                <span class="text-gr80 font-bold">South Korea</span>
+              </li>
+              <li
+                class="flex items-center gap-3 cursor-pointer hover:bg-gr20 rounded-lg px-3 py-2">
+                <img
+                  src="https://flagcdn.com/w20/tr.png"
+                  alt="Turkey"
+                  class="!size-6 rounded-full" />
+                <span class="text-gr80 font-bold">Turkey</span>
+              </li>
+              <li
+                class="flex items-center gap-3 cursor-pointer hover:bg-gr20 rounded-lg px-3 py-2">
+                <img
+                  src="https://flagcdn.com/w20/sa.png"
+                  alt="Saudi Arabia"
+                  class="!size-6 rounded-full" />
+                <span class="text-gr80 font-bold">Saudi Arabia</span>
+              </li>
+              <li
+                class="flex items-center gap-3 cursor-pointer hover:bg-gr20 rounded-lg px-3 py-2">
+                <img
+                  src="https://flagcdn.com/w20/id.png"
+                  alt="Indonesia"
+                  class="!size-6 rounded-full" />
+                <span class="text-gr80 font-bold">Indonesia</span>
+              </li>
+              <li
+                class="flex items-center gap-3 cursor-pointer hover:bg-gr20 rounded-lg px-3 py-2">
+                <img
+                  src="https://flagcdn.com/w20/ar.png"
+                  alt="Argentina"
+                  class="!size-6 rounded-full" />
+                <span class="text-gr80 font-bold">Argentina</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./assets/js/plguins.js"></script>
+    <script src="./assets/js/plguins-custom.js"></script>
+    <script src="./assets/js/main.js"></script>
+  <script defer src="index.js"></script></body>
+</html>

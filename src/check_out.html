@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- PWA -->
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <meta name="theme-color" content="#111827" />
+    <link rel="apple-touch-icon" href="/icons/icon-192.png" />
+
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <link rel="stylesheet" href="https://use.hugeicons.com/font/icons.css" />
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.png"
+      type="image/x-icon" />
+    <title>Cartly - E-Commerce Mobile app HTMl Template</title>
+  </head>
+
+  <body class="relative min-h-screen">
+    <!-- Time and Network bar starts -->
+    <div class="mx-auto max-w-md">
+      <div class="container">
+        <div class="flex justify-between items-center py-2">
+          <img
+            class="w-full"
+            src="assets/images/statusbar.png"
+            alt=""
+            draggable="false" />
+        </div>
+      </div>
+    </div>
+    <!-- Time and Network bar ends -->
+    <section class="mx-auto max-w-md">
+      <div class="container">
+        <div
+          class="p-4 flex items-center justify-between border-b border-gr30 mb-4">
+          <a href="index.html" class="flex items-center gap-3">
+            <span class="d-center"
+              ><i class="hgi hgi-stroke hgi-arrow-left-01 text-2xl"></i
+            ></span>
+            <span class="fs-six text-gr80 font-bold">Cart</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Products Delete Starts -->
+    <section class="mx-auto max-w-md px-4 mb-4">
+      <div>
+        <div>
+          <div class="border border-gr30 rounded-xl mb-4">
+            <div class="flexb px-4 py-[10px] bg-gr10 mb-3 border-b border-gr30">
+              <div class="flexs gap-2">
+                <span class="d-center">
+                  <i
+                    class="hgi hgi-stroke hgi-building-03 text-xl text-gr80"></i>
+                </span>
+                <span class="text-gr80 font-bold">Office Address</span>
+              </div>
+              <button
+                class="py-2 px-3 !border !border-gr30 rounded-lg font-medium text-sm">
+                Edit
+              </button>
+            </div>
+            <div class="mb-4 px-4">
+              <div class="flexs gap-3 mb-2">
+                <div class="flexs gap-2 w-[80px]">
+                  <span class="d-center">
+                    <i class="hgi hgi-stroke hgi-user text-base text-gr60"></i>
+                  </span>
+                  <span class="text-sm text-gr80">Name</span>
+                </div>
+                <span class="text-xs text-gr80">:</span>
+                <span class="text-sm text-gr80">Alexa Smith</span>
+              </div>
+              <div class="flexs gap-3 mb-2">
+                <div class="flexs gap-2 w-[80px]">
+                  <span class="d-center">
+                    <i class="hgi hgi-stroke hgi-call text-base text-gr60"></i>
+                  </span>
+                  <span class="text-sm text-gr80">Phone</span>
+                </div>
+                <span class="text-xs text-gr80">:</span>
+                <span class="text-sm text-gr80">+100 12457896</span>
+              </div>
+              <div class="flexs gap-3">
+                <div class="flexs gap-2 w-[80px]">
+                  <span class="d-center">
+                    <i
+                      class="hgi hgi-stroke hgi-maps-global-01 text-base text-gr60"></i>
+                  </span>
+                  <span class="text-sm text-gr80">Address</span>
+                </div>
+                <span class="text-xs text-gr80">:</span>
+                <span class="text-sm text-gr80">California City, USA</span>
+              </div>
+            </div>
+            <div class="px-4 mb-4">
+              <div
+                class="px-3 pt-[10px] pb-6 rounded-lg border border-gr30 bg-wn10">
+                <span class="text-gr80">Additional Note</span>
+              </div>
+            </div>
+          </div>
+          <div class="border border-gr30 rounded-xl pb-3">
+            <div class="flexb px-4 py-[10px] bg-gr10 mb-3 border-b border-gr30">
+              <div class="flexs gap-2">
+                <span class="d-center">
+                  <i class="hgi hgi-stroke hgi-money-01 text-xl text-gr80"></i>
+                </span>
+                <span class="text-gr80 font-bold">Payment Method</span>
+              </div>
+            </div>
+            <div class="pb-[10px] mb-[10px] px-4">
+              <div class="flexb mb-[10px]">
+                <div class="flex items-center gap-3">
+                  <input type="checkbox" class="!size-[14px]" />
+                  <span class="text-left block text-gr80 text-sm"
+                    >Regular Delivery</span
+                  >
+                </div>
+                <span class="text-gr80 text-sm">$250.00</span>
+              </div>
+              <div class="flexb">
+                <div class="flex items-center gap-3">
+                  <input type="checkbox" class="!size-[14px]" />
+                  <span class="text-left block text-gr80 text-sm"
+                    >Express Delivery</span
+                  >
+                </div>
+                <span class="text-gr80 text-sm">$250.00</span>
+              </div>
+            </div>
+            <div class="px-4 border-b border-gr30 pb-3 mb-3">
+              <div
+                class="flexs gap-2 py-2 px-[14px] rounded-lg border border-gr30 mb-4">
+                <span class="d-center"
+                  ><i
+                    class="hgi hgi-stroke hgi-credit-card text-xl text-gr60"></i
+                ></span>
+                <input
+                  type="text"
+                  placeholder="Card Number"
+                  class="!p-0 !border-0" />
+              </div>
+              <div
+                class="flexs gap-2 py-2 px-[14px] rounded-lg border border-gr30 mb-4">
+                <span class="d-center"
+                  ><i class="hgi hgi-stroke hgi-user text-xl text-gr60"></i
+                ></span>
+                <input
+                  type="text"
+                  placeholder="Full Name"
+                  class="!p-0 !border-0" />
+              </div>
+              <div class="flexs gap-2">
+                <div
+                  class="flexs gap-2 py-2 px-[14px] rounded-lg border border-gr30">
+                  <span class="d-center"
+                    ><i
+                      class="hgi hgi-stroke hgi-credit-card-not-found text-xl text-gr60"></i
+                  ></span>
+                  <input type="text" placeholder="CVV" class="!p-0 !border-0" />
+                </div>
+                <div
+                  class="flexs gap-2 py-2 px-[14px] rounded-lg border border-gr30">
+                  <span class="d-center"
+                    ><i
+                      class="hgi hgi-stroke hgi-calendar-03 text-xl text-gr60"></i
+                  ></span>
+                  <input
+                    type="text"
+                    placeholder="Expiry"
+                    class="!p-0 !border-0" />
+                </div>
+              </div>
+            </div>
+            <div class="flexb px-4">
+              <span class="text-gr80 font-semibold">Amount Payable</span>
+              <span class="text-gr80 font-semibold">$250.00</span>
+            </div>
+          </div>
+          <div class="p-4 mt-5 border-t border-gr30">
+            <a href="order_placed.html"
+              class="font-bold text-nt10 py-3 w-full rounded-lg bg-primary block text-center">
+              Pay $299.00
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Products Delete  Ends -->
+
+    <script src="./assets/js/plguins.js"></script>
+    <script src="./assets/js/plguins-custom.js"></script>
+    <script src="./assets/js/main.js"></script>
+  </body>
+</html>
